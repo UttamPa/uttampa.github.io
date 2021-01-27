@@ -12,8 +12,11 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+Is this header 1?
 ## Header 2
+Is this header 2?
 ### Header 3
+Is this header 3?
 
 - Bulleted
 - List
