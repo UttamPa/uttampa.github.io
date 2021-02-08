@@ -2,6 +2,17 @@
 
 You can use the [editor on GitHub](https://github.com/UttamPa/uttampa.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
+
+exports.onRouteUpdate = ({ location }) => {
+  if (location.hash) {
+    const id = location.hash.substring(1); // location.hash without the '#'
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView();
+    }
+  }
+};
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
